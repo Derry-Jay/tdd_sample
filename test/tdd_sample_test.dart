@@ -1,13 +1,13 @@
 // import 'dart:math';
 
-// import 'package:tdd_sample/tdd_sample.dart';
+import 'package:tdd_sample/tdd_sample.dart';
 import 'package:test/test.dart';
 
 void main() {
   group('Add Numbers In String Test', () {
-    // test('Empty Input', () {
-    //   expect(add(''), 0);
-    // });
+    test('Empty Input', () {
+      expect(add(''), 0);
+    });
     // test('Input length is 1', () {
     //   expect(add('1'), 1);
     // });
