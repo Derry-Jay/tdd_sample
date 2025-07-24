@@ -14,9 +14,9 @@ void main() {
     test('Input length is 2', () {
       expect(add('1,5'), 6);
     });
-    // test('Multiple Delimiters', () {
-    //   expect(add('1:2,5'), 8);
-    // });
+    test('Multiple Delimiters', () {
+      expect(add('1:2,5'), 8);
+    });
     // test('Other Delimiters', () {
     //   expect(add('//;\n1;2'), 3);
     // });
