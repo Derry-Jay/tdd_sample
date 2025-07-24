@@ -1,4 +1,4 @@
-// import 'dart:math';
+import 'dart:math';
 
 import 'package:tdd_sample/tdd_sample.dart';
 import 'package:test/test.dart';
@@ -20,10 +20,10 @@ void main() {
     test('Other Delimiters', () {
       expect(add('//;\n1;2'), 3);
     });
-    // test('Long String', () {
-    //   final list = List<int>.generate(20, (i) => Random().nextInt(i + 1) + 1);
-    //   expect(add(list.join(',')), list.sum);
-    // });
+    test('Long String', () {
+      final list = List<int>.generate(20, (i) => Random().nextInt(i + 1) + 1);
+      expect(add(list.join(',')), list.sum);
+    });
     // test('Negative Numbers in the String should throw error', () {
     //   expect(add('1:4,-5;-7'), throwsA(predicate((e) => e is ArgumentError && e.message == 'Negative numbers are not allowed <-5,-7>')));
     // });
