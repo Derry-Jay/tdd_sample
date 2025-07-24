@@ -8,9 +8,9 @@ void main() {
     test('Empty Input', () {
       expect(add(''), 0);
     });
-    // test('Input length is 1', () {
-    //   expect(add('1'), 1);
-    // });
+    test('Input length is 1', () {
+      expect(add('1'), 1);
+    });
     // test('Input length is 2', () {
     //   expect(add('1,5'), 6);
     // });
