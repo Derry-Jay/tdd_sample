@@ -17,9 +17,9 @@ void main() {
     test('Multiple Delimiters', () {
       expect(add('1:2,5'), 8);
     });
-    // test('Other Delimiters', () {
-    //   expect(add('//;\n1;2'), 3);
-    // });
+    test('Other Delimiters', () {
+      expect(add('//;\n1;2'), 3);
+    });
     // test('Long String', () {
     //   final list = List<int>.generate(20, (i) => Random().nextInt(i + 1) + 1);
     //   expect(add(list.join(',')), list.sum);
